@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles.css" /> 
+</head>
+
+<body class="container">
+    <div class="loader hide"></div>
+    <button class="join-meeting join-webex">Join Webex</button>
+    <button class="join-meeting join-zoom">Join Zoom</button>
+    <div>
+        <div class="webview-container"></div>
+        <div class="meeting-info-screen hide">
+            <h4 class="meeting-info-sub">Contoso Briefing</h4>
+            <p class="meeting-info-time">12:00 PM - 1:00 PM</p>
+            <p class="meeting-info-owner">Christina Rollin</p>
+        </div>
+        <div class="console-controls">
+            <div class="pretty p-switch">
+                <input type="checkbox" />
+                <div class="state">
+                    <label>Show meeting on console</label>
+                </div>
+            </div>
+            <button class="exit-meeting-btn">Exit meeting</button>
+            <ul class="button-control">
+                <li><i class="fa fa-minus" aria-hidden="true"></i></li>
+                <li><i class="fa fa-volume-up" aria-hidden="true"></i> </li>
+                <li><i class="fa fa-plus" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./init.js"></script>
+</body> 
+</html>
